@@ -45,7 +45,7 @@ services:
       MYSQL_PASSWORD: kejilionYYDS
 
   redis:
-    image: redis-alpine
+    image: redis:alpine
     container_name: redis
     restart: always
     volumes:
